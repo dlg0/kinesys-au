@@ -1,0 +1,36 @@
+# SysSettings.dat
+# This is the system settings file for the KiNESYS+ model for NSW (AusGrid)
+
+# Model Info
+ModelName: KiNESYS_AusGrid_Model
+BaseYear: 2025
+TimeSlices: ANNUAL  # You can specify multiple time slices if necessary (e.g., Seasons, Time of Day)
+RegionList: NSW
+DefaultRegion: NSW
+
+# Time Periods
+# Define the time periods (years) for your model. Here it covers from 2025 to 2050.
+Years: 2025 2030 2040 2050
+
+# Base Data
+# Paths to your base input files (technologies, fuels, demands, etc.)
+BaseTechFile: ./input_data/technologies/technology.csv
+BaseFuelFile: ./input_data/fuels/fuel_prices.csv
+BaseDemandFile: ./input_data/demand/demand_projection.csv
+BaseConstraintsFile: ./input_data/constraints/emission_constraints.csv
+
+# Scenario Settings
+# Define the paths to your scenarios and allow Veda to switch between different scenario inputs.
+ScenarioDir: ./scenario_data/
+
+# Default Scenario (optional)
+# You can specify a default scenario that will be loaded when the model starts.
+DefaultScenario: Balanced
+
+# Output Settings
+# Specify where results should be stored after the model is run.
+ResultsDir: ./scenario_data/{ScenarioName}/results/
+
+# Additional Settings
+# Optional: You can define additional paths, output formats, or logging preferences.
+LogFile: ./logs/kinesys_model.log
