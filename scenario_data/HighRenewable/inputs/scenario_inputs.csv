@@ -1,0 +1,9 @@
+Scenario,Year,Region,Technology,CapacityAddition(MW)
+HighRenewable,2025,NSW,SolarPV,700
+HighRenewable,2025,NSW,WindTurbine,400
+HighRenewable,2025,NSW,GasPlant_CCS,50
+HighRenewable,2030,NSW,SolarPV,900
+HighRenewable,2030,NSW,WindTurbine,600
+HighRenewable,2030,NSW,GasPlant_CCS,50
+HighRenewable,2040,NSW,SolarPV,1000
+HighRenewable,2040,NSW,WindTurbine,800

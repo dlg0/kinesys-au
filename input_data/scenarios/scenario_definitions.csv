@@ -1,0 +1,12 @@
+Scenario,Year,Region,Technology,CapacityAddition(MW)
+Scenario1,2025,NSW,SolarPV,500
+Scenario1,2025,NSW,WindTurbine,300
+Scenario1,2025,NSW,GasPlant_CCS,100  # Adding Gas with CCS
+Scenario1,2030,NSW,SolarPV,600
+Scenario1,2030,NSW,WindTurbine,400
+Scenario1,2030,NSW,GasPlant_CCS,200  # Expanding Gas with CCS capacity
+Scenario1,2040,NSW,SolarPV,700
+Scenario1,2040,NSW,WindTurbine,500
+Scenario1,2040,NSW,GasPlant_CCS,300
+Scenario1,2050,NSW,SolarPV,800
+Scenario1,2050,NSW,WindTurbine,600

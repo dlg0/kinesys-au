@@ -1,0 +1,6 @@
+Technology,InputFuel,Output,Efficiency,InvestmentCost(USD/kW),Lifetime(years)
+CoalPlant,Coal,Electricity,0.35,1500,40
+SolarPV,Solar,Electricity,1.00,800,25
+WindTurbine,Wind,Electricity,1.00,1000,25
+GasPlant,NaturalGas,Electricity,0.50,1000,35
+GasPlant_CCS,NaturalGas,Electricity,0.45,2000,35

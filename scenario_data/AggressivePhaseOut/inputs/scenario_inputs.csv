@@ -1,0 +1,10 @@
+Scenario,Year,Region,Technology,CapacityAddition(MW)
+AggressivePhaseOut,2025,NSW,SolarPV,600
+AggressivePhaseOut,2025,NSW,WindTurbine,500
+AggressivePhaseOut,2025,NSW,GasPlant_CCS,100
+AggressivePhaseOut,2030,NSW,SolarPV,900
+AggressivePhaseOut,2030,NSW,WindTurbine,700
+AggressivePhaseOut,2030,NSW,GasPlant_CCS,300
+AggressivePhaseOut,2040,NSW,SolarPV,1000
+AggressivePhaseOut,2040,NSW,WindTurbine,900
+AggressivePhaseOut,2040,NSW,GasPlant_CCS,400

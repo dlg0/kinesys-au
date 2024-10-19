@@ -1,0 +1,13 @@
+Year,Region,Technology,EmissionLimit(tons CO2)
+2025,NSW,StateLevel,CoalPlant,1000000
+2025,NSW,StateLevel,GasPlant,500000
+2025,NSW,StateLevel,GasPlant_CCS,100000  # Reduced emissions due to CCS
+2025,NSW,TomagoAluminium,AluminiumProduction,1500000
+2030,NSW,StateLevel,CoalPlant,800000
+2030,NSW,StateLevel,GasPlant,400000
+2030,NSW,StateLevel,GasPlant_CCS,80000  # Stringent constraint on gas with CCS
+2030,NSW,TomagoAluminium,AluminiumProduction,1250000  # Reflecting a 4.9% annual reduction
+2040,NSW,StateLevel,CoalPlant,300000  # Phasing out coal by 2040
+2040,NSW,StateLevel,GasPlant,200000  # Reduced emissions from gas
+2040,NSW,StateLevel,GasPlant_CCS,50000
+2050,NSW,StateLevel,NetZero,0  # Net zero emissions by 2050

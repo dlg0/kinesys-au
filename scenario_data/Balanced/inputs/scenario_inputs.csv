@@ -1,0 +1,11 @@
+Scenario,Year,Region,Technology,CapacityAddition(MW)
+Balanced,2025,NSW,SolarPV,500
+Balanced,2025,NSW,WindTurbine,300
+Balanced,2025,NSW,GasPlant,200
+Balanced,2030,NSW,SolarPV,700
+Balanced,2030,NSW,WindTurbine,500
+Balanced,2030,NSW,GasPlant_CCS,150
+Balanced,2040,NSW,SolarPV,800
+Balanced,2040,NSW,WindTurbine,700
+Balanced,2040,NSW,GasPlant_CCS,200
+Balanced,2050,NSW,GasPlant_CCS,300
